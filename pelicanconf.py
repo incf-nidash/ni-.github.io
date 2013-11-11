@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'NIDASH'
 SITENAME = u'NIDASH Data Model'
 SITEURL = ''
-THEME = 'dev-random2'
+THEME = 'bootstrap2'
 
 TIMEZONE = 'UTC'
 
@@ -21,9 +21,8 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS =  (('INCF', 'http://incf.org'),
-          ('GitHub', 'http://github.com/ni-'),
           ('NIDASH Wiki', 
-          	'wiki-new.incf.org/mediawiki/index.php'
+          	'http://wiki-new.incf.org/mediawiki/index.php'
           	'/Neuroimaging_Task_Force'),)
 
 # Social widget
