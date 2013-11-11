@@ -20,14 +20,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('INCF', 'http://incf.org/'),
-          ('GitHub', 'http://github.com/ni-/'),
+LINKS =  (('INCF', 'http://incf.org'),
+          ('GitHub', 'http://github.com/ni-'),
           ('NIDASH Wiki', 
           	'wiki-new.incf.org/mediawiki/index.php'
-          	'/Neuroimaging_Task_Force/'),)
+          	'/Neuroimaging_Task_Force'),)
 
 # Social widget
-SOCIAL = (('GitHub', 'http://github.com/ni-/'),)
+SOCIAL = (('GitHub', 'http://github.com/ni-'),)
 
 DEFAULT_PAGINATION = 10
 
