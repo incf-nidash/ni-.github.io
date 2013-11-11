@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'NIDASH'
 SITENAME = u'NIDASH Data Model'
 SITEURL = ''
+THEME = 'dev-random2'
 
 TIMEZONE = 'UTC'
 
@@ -16,14 +17,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('INCF', 'http://incf.org/'),
+          ('GitHub', 'http://github.com/ni-/'),
+          ('NIDASH Wiki', 
+          	'wiki-new.incf.org/mediawiki/index.php'
+          	'/Neuroimaging_Task_Force/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'http://github.com/ni-/'),)
 
 DEFAULT_PAGINATION = 10
 
